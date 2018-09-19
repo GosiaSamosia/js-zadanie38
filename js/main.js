@@ -1,25 +1,82 @@
 var liczba1 = 2;
 var liczba2 = 3;
 
-var dodawanie = liczba1 + liczba2;
-var odejmowanie = liczba1 - liczba2;
-var mnozenie = liczba1 * liczba2;
+
+function dzialania() {
+    function wdodawanie(){
+        var dodawanie = liczba1 + liczba2;
+        var x = dodawanie;
+    
+        if (x > 0==true) {
+            console.log("Wynik dodawania wynosi " + dodawanie);
+        }else{
+            console.log("Wynik jest ujemny");      
+        }
+    }wdodawanie();
+    function wodejmowanie() {
+        var odejmowanie = liczba1 - liczba2;
+        var x = odejmowanie;
+        
+        if (x > 0==true) {
+            console.log("Wynik odejmowanie wynosi " + odejmowanie);
+        }else{
+            console.log("Wynik jest ujemny");      
+        }
+    }wodejmowanie();
+    function wmnozenie() {
+        var mnozenie = liczba1 * liczba2;
+        var x = mnozenie;
+        
+        if (x > 0==true) {
+            console.log("Wynik mnozenia wynosi " + mnozenie);
+        }else{
+            console.log("Wynik jest ujemny");
+        }
+    }wmnozenie();
+}
+dzialania();
 
 
-function multiply(liczba1, liczba2) {
+
+
+/*Notatki
+var liczba1 = 2;
+var liczba2 = 3;
+
+
+function wdodawanie() {
+    var dodawanie = liczba1 + liczba2;
     var x = dodawanie;
-    console.log(x);
     
-    var x = odejmowanie;
-    console.log(x);
-
-    var x = mnozenie;
-    console.log(x);
-    
-    if (dodawanie > 0 && odejmowanie > 0 && mnozenie > 0) {
-        console.log("Wynik dodawania wynosi " + dodawanie + " Wynik odejmowania wynosi " + odejmowanie + " Wynik mnożenia wynosi " + mnozenie);
+    if (x > 0==true) {
+        console.log("Wynik dodawania wynosi " + dodawanie);
     }else{
-        console.log("Wynik jest ujemny");
+        console.log("Wynik jest ujemny");      
+    }
+    function wodejmowanie() {
+        var odejmowanie = liczba1 - liczba2;
+        var x = odejmowanie;
+        
+        if (x > 0==true) {
+            console.log("Wynik odejmowanie wynosi " + odejmowanie);
+        }else{
+            console.log("Wynik jest ujemny");      
+        }
+    
+        function wmnozenie() {
+            var mnozenie = liczba1 * liczba2;
+            var x = mnozenie;
+            
+            if (x > 0==true) {
+                console.log("Wynik mnozenia wynosi " + mnozenie);
+            }else{
+                console.log("Wynik jest ujemny");
+            }
+        }
     }
 }
-console.log(multiply());
+console.log(wdodawanie());
+console.log(wodejmowanie());
+console.log(wmnozenie());
+
+*/
